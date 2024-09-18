@@ -1,0 +1,48 @@
+.tabbled-Nav{
+    background-color: #24292E;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.tabbed-nav-inner-Div{
+    display: flex;
+    background-color: #1F2428;
+    height: 5.5vh;
+    align-items: center;
+}
+
+.tabbed-nav-inner-Div div{
+    display: flex;
+    flex-direction: row;
+    min-width: 100px;
+    width: 8.5vw;
+    border-right:1px solid black ;
+    height: 100%;
+    justify-content: center;
+    gap: .2rem;
+    align-items: center;
+    font-weight: 400;
+}
+
+.tabbed-img{
+    height: 1.2rem;
+    width: 1.2rem;
+}
+
+.tabbed-btn{
+    width: none;
+    background-color: transparent;
+    border: none;
+    font-weight: 530;
+    font-size: 14px;
+}
+
+.tabbed-clicked:hover{
+    cursor: pointer;
+}
+
+.tabbed-really-clicked{
+    background-color: #24292E;
+    border-top: 1px solid orange;
+}

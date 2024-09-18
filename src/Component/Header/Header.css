@@ -1,0 +1,60 @@
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: #1F2428;
+    padding: .3rem;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: .8rem;
+    height: 4vh;
+    width: 100vw;
+    border-bottom: 1px solid black;
+}
+
+.left-Header-Div{
+    display: flex;
+    gap: 1rem;
+}
+
+.item-count-7{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.vsCode-Image{
+    width: 1rem;
+}
+
+.middle-Header-Div{
+    display: flex;
+    align-items: center;
+}
+
+.right-Header-Div{
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}
+
+
+.yellow{
+    border-radius: 50%;
+    height: .8rem;
+    width: .8rem;
+    background-color: #F1FA8C;
+}
+
+.green{
+    border-radius: 50%;
+    height: .8rem;
+    width: .8rem;
+    background-color: #50FA7B;
+}
+
+.red{
+    border-radius: 50%;
+    height: .8rem;
+    width: .8rem;
+    background-color: #FF5555;
+}

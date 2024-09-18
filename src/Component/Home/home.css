@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+.home-div{
+    padding: 2rem;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.background-circle-image{
+    position: absolute;
+    height: 80%;
+    width: 100%;
+    left: 24vw;
+    top: 5vh;
+}
+
+.home-div h1{
+    font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 3.5rem;
+    font-weight: 500;
+}
+
+.home-div h3{
+    font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2.5rem;
+    font-weight: 100;
+}
+
+.contact-me-btn{
+    font-size: 1.25rem;
+    padding: .5rem 1rem;
+    color: #eee;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    border: .1rem solid orange;
+}
+.home-btn-div{
+    display: flex;
+    gap: 2rem;
+}
+
+.view-work-btn{
+    font-size: 1.25rem;
+    padding: .5rem 1rem;
+    color: #eee;
+    cursor: pointer;
+    background-color: orange;
+    border: none;
+}
