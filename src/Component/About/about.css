@@ -11,3 +11,14 @@
     font-style: normal;
     font-size: 1.125rem;
 }
+@media(max-width:768px){
+    .about{
+        padding: 1rem;
+    }
+    .about p{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+    }
+}

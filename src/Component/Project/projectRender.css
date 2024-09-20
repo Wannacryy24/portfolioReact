@@ -1,0 +1,64 @@
+.Html5-span{
+    align-items: center;
+    border: 2px solid red;
+    border-radius: 5px;
+    width: auto;
+    justify-content: center;
+    display: flex;
+    padding: 1px;
+}
+.Html5-span:hover{
+    background-color: #572B33;
+    cursor: pointer;
+}
+
+.Css3-span{
+    border: 2px solid #285f9e;
+    border-radius: 5px;
+    width: auto;
+    justify-content: center;
+    display: flex;
+    padding: 1px;
+}
+.Css3-span:hover{
+    background-color: #17375B;
+    cursor: pointer;
+}
+.Javascript-span{
+    border: 2px solid #83CD29;
+    border-radius: 8px;
+    width: auto;
+    justify-content: center;
+    display: flex;
+    padding: 1px;
+}
+.Javascript-span:hover{
+    background-color: #384E28;
+    cursor: pointer;
+}
+.React-span{
+    border: 2px solid #764ABC;
+    border-radius: 5px;
+    width: auto;
+    justify-content: center;
+    display: flex;
+    padding: 1px;
+    
+}
+.React-span:hover{
+    background-color:#352E4D ;
+    cursor: pointer;
+}
+.MirageJs-span{
+    border: 2px solid #61DAFB;
+    border-radius: 5px;
+    width: auto;
+    justify-content: center;
+    display: flex;
+    padding: 1px;
+    
+}
+.MirageJs-span:hover{
+    background-color: #1F2428;
+    cursor: pointer;
+}

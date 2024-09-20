@@ -1,0 +1,30 @@
+.jsImage-in-articles{
+    height: 150px;
+    width: 150px;
+
+}
+
+.article-div{
+    padding: 3rem;
+    gap: 5rem;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+@media(max-width:768px){
+    .article-div{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        flex-direction: column;
+        overflow: auto;
+        gap: 1rem;
+    }
+    .article-div div img{
+        height: 6rem;
+        width: 6rem;
+    }
+}

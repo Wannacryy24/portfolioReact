@@ -49,12 +49,12 @@
     position: absolute;
     top: 20%;
     left: 20%;
-    z-index: 1; /* Lower z-index to ensure it is behind */
+    z-index: 1; 
   }
   
   .contact-object-div {
     position: relative;
-    z-index: 2; /* Higher z-index to bring it in front */
+    z-index: 2; 
   }
   
   .contact-object-div p span{
@@ -62,3 +62,22 @@
     margin-right: 20px;
   }
   
+
+  @media (max-width:768px){
+    .contact-div{
+      padding: 1rem;
+    }
+    .i-build-png{
+      width: 70%;
+    }
+    .contact-object-div{
+      height: 80vh;
+    }
+    .contact-object-div p{
+      font-size: 1.1rem;
+      line-height: 150%;
+    }
+    .contact-object-div p a{
+      color: #42A5F5;
+    }
+  }

@@ -25,6 +25,7 @@
     font-style: normal;
     font-size: 3.5rem;
     font-weight: 500;
+    letter-spacing: 1rem;
 }
 
 .home-div h3{
@@ -45,9 +46,11 @@
     border: none;
     border: .1rem solid orange;
 }
+
 .home-btn-div{
     display: flex;
     gap: 2rem;
+    padding-top: 50px;
 }
 
 .view-work-btn{
@@ -58,3 +61,35 @@
     background-color: orange;
     border: none;
 }
+
+.blinking-cursor {
+    font-weight: bold;
+    font-size: 3rem;
+    color: #F9826C;
+    animation: blink 1s step-start infinite;
+  }
+  
+
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+    
+}
+
+@media (max-width:768px)
+  {
+    .home-div{
+        padding: 1rem;
+    }
+    .background-circle-image{
+        z-index: 1;
+        opacity: 0.5;
+    }
+    .home-div div{
+        z-index: 3;
+    }
+    .home-div{
+        width: 100%;
+    }
+  }

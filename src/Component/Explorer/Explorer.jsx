@@ -29,7 +29,7 @@ export default function Explorer() {
             </div>
             <div>
                 <Image src={'/json_icon.svg'} className={'explorer-articles-img'}/>
-                <p>articles.json</p>
+                <p>skills.json</p>
             </div>
             <div>
                 <Image src={'/markdown_icon.svg'} className={'explorer-github-img'}/>

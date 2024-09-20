@@ -58,3 +58,16 @@ header{
     width: .8rem;
     background-color: #FF5555;
 }
+
+
+@media (max-width: 768px){
+    header{
+        width: 100vw;
+    }
+    .left-Header-Div{
+        
+    }
+    .list-container {
+        display: none;
+    }
+}

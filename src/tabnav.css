@@ -8,7 +8,7 @@
 .tabbed-nav-inner-Div{
     display: flex;
     background-color: #1F2428;
-    height: 5.5vh;
+    min-height: 5.5vh;
     align-items: center;
 }
 
@@ -31,7 +31,6 @@
 }
 
 .tabbed-btn{
-    width: none;
     background-color: transparent;
     border: none;
     font-weight: 530;
@@ -40,9 +39,24 @@
 
 .tabbed-clicked:hover{
     cursor: pointer;
+    background-color: #333a40;
 }
 
 .tabbed-really-clicked{
     background-color: #24292E;
     border-top: 1px solid orange;
+}
+
+@media (max-width: 768px){
+    .tabbed-nav-inner-Div{
+        width: 100%;
+        overflow: auto;
+    }
+    .tabbled-Nav{
+        width: 88.2vw;
+        /* width: cal(89%-1px); */
+    }
+    .tabbed-nav-inner-Div{
+        margin-left: 1px;
+    }
 }

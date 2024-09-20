@@ -60,7 +60,7 @@ export default function TabNav() {
         className={activeComponent === 'articles' ? 'tabbed-really-clicked' : 'tabbed-clicked'} 
         >
           <Image src={'/json_icon.svg'} className={'tabbed-articles-img tabbed-img'}/>
-          <p  className='tabbed-btn'>articles.json</p>
+          <p  className='tabbed-btn'>skills.json</p>
         </div>
         
         <div 
@@ -72,14 +72,12 @@ export default function TabNav() {
         </div>
 
       </div>
-      
         {activeComponent === 'home' && <Home/>}
         {activeComponent === 'about' && <About/> }
         {activeComponent === 'contact' && <Contact/> }
         {activeComponent === 'project' && <Project/> }
         {activeComponent === 'articles' && <Articles/> }
         {activeComponent === 'github' && <Github/> }
-      
     </div>
        
         </>

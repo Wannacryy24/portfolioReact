@@ -1,5 +1,6 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './contact.css'
+import { useScroll } from 'framer-motion'
 export default function Contact() {
   return (
     <div className='contact-div'>
@@ -26,10 +27,19 @@ export default function Contact() {
         </p>
         <p>
           <span>5</span>
-          linkedin
+          linkedin:
           <a href="https://www.linkedin.com/in/mayank-verma-3b8b62318/">Mayank Linkedin</a>
         </p>
         <p>
+          <span>6</span>
+          Contact_no:  8868879095
+        </p>
+        <p>
+          
+        </p>
+        <p>
+          <span>7</span>
+          {`}`}
         </p>
       </div>
       <img src="/i_build_website.png" alt="" className='i-build-png'/>
