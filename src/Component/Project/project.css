@@ -1,6 +1,6 @@
 .project-div{
-    padding-top: 3rem;
-    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
     height: 90%;
     width: 90%;
     display: flex;
@@ -19,7 +19,7 @@
     height: auto;
     max-height: 85vh;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
     gap: 20px; 
     justify-items: center; 
     overflow: auto;
@@ -43,7 +43,7 @@
     border-radius: 15px;
     background-color: #1F2428;
     width: 80%;
-    height: 60vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     gap: 3%;
@@ -83,79 +83,22 @@
     flex-direction: column;
     gap: .2rem;
 }
-.project-details-span-div{
+.project-details-span-div {
     display: flex;
-    /* flex-direction: column; */
     gap: .8rem;
-}
-.project-details-span-div{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
-.Html5-span{
-    align-items: center;
-    border: 2px solid red;
-    border-radius: 5px;
-    width: auto;
-    justify-content: center;
-    display: flex;
-    padding: 1px;
-}
-.Html5-span:hover{
-    background-color: #572B33;
-    cursor: pointer;
+    flex-direction: row;
+    width: 100%;
 }
 
-.Css3-span{
-    border: 2px solid #285f9e;
-    border-radius: 5px;
-    width: auto;
-    justify-content: center;
+.project-details-span-div  ul {
     display: flex;
-    padding: 1px;
+    flex-wrap: wrap;
+    margin-left: 1.5rem;
+    gap: 1rem;
+    column-gap: 2rem;
 }
-.Css3-span:hover{
-    background-color: #17375B;
-    cursor: pointer;
-}
-.Javascript-span{
-    border: 2px solid #83CD29;
-    border-radius: 8px;
-    width: auto;
-    justify-content: center;
-    display: flex;
-    padding: 1px;
-}
-.Javascript-span:hover{
-    background-color: #384E28;
-    cursor: pointer;
-}
-.React-span{
-    border: 2px solid #764ABC;
-    border-radius: 5px;
-    width: auto;
-    justify-content: center;
-    display: flex;
-    padding: 1px;
-    
-}
-.React-span:hover{
-    background-color:#352E4D ;
-    cursor: pointer;
-}
-.MirageJs-span{
-    border: 2px solid #61DAFB;
-    border-radius: 5px;
-    width: auto;
-    justify-content: center;
-    display: flex;
-    padding: 1px;
-    
-}
-.MirageJs-span:hover{
-    background-color: #1F2428;
-    cursor: pointer;
-}
+
+
 
 @media (max-width: 768px) {
     .project-Details-div {
@@ -166,6 +109,5 @@
     }
     .first-project{
         width: 100%;
-
     }
 }

@@ -15,11 +15,13 @@ export default function ProjectRender({ projectList }) {
             <p>{item.projectDetails}</p>
             <div className='technologies-used-div'>
               <div className='project-details-span-div'>
-                {item.technologiesUsed.map((tech, indextwo) => (
-                  <span key={indextwo} className={`${tech}-span`}>
-                    {tech}
-                  </span>
-                ))}
+                <ul>
+                     {item.technologiesUsed.map((tech, indextwo) => (
+                      <li key={indextwo} className={`${tech}-li`}>
+                        {tech}
+                      </li>
+                      ))}
+                </ul>
               </div>
             </div>
             <div className='project-source-code-div'>

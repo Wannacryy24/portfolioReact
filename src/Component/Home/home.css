@@ -68,8 +68,14 @@
     color: #F9826C;
     animation: blink 1s step-start infinite;
   }
-  
 
+  .background-circle-image{
+    z-index: 1;
+    /* opacity: 0.5; */
+  }
+  .home-div div{
+    z-index: 3;
+  }
   @keyframes blink {
     50% {
       opacity: 0;

@@ -15,6 +15,7 @@ export default function Github() {
   };
 
   return (
+    <>
     <motion.svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 100 100"
@@ -23,7 +24,7 @@ export default function Github() {
       strokeWidth="3"
       width="200"
       height="200"
-    >
+      >
       {/* Path for drawing the letter "M" */}
       <motion.path
         d="M 10 80 L 10 20 L 50 60 L 90 20 L 90 80"
@@ -32,5 +33,13 @@ export default function Github() {
         animate="visible"
       />
     </motion.svg>
+      <div>
+        &lt;button&gt;
+          <a href="">
+            Download Resume
+          </a>
+          &lt;/button&gt;
+      </div>
+        </>
   );
 }
