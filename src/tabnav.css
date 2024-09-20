@@ -47,6 +47,10 @@
     border-top: 1px solid orange;
 }
 
+.link-home-tab-nav{
+    height: 100%;
+}
+
 @media (max-width: 768px){
     .tabbed-nav-inner-Div{
         width: 100%;

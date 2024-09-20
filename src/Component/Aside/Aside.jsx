@@ -2,15 +2,15 @@ import React, { useContext } from 'react'
 import Image from '../MiniComponent/Image'
 import './Aside.css'
 import { ButtonContext } from '../../ButtonContext'
+import { useNavigate } from 'react-router-dom'
 export default function Aside() {
+    const navigate = useNavigate();
     const { activeComponent , setActiveComponent } = useContext(ButtonContext);
-    console.log(activeComponent);
-
     const handleClickbtn = (e) => {
         var selectedComponent = e.currentTarget.getAttribute('data-value');
         setActiveComponent(selectedComponent);
+        navigate(e.currentTarget.value);
     }
-
   return (
     <aside>
         <div className='top-aside-Div'>
