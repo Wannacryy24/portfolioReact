@@ -23,12 +23,12 @@ aside{
 }
 
 .copy-div , .github-div ,.fragmented-div ,.pen-div ,.mail-div,.user-aside-div,.setting-aside-div:hover{
-    background-color: #1F2428;
+    background-color: #24292E;
     cursor: pointer;
 }
 
 
-.copy-div-active , .mail-div-active , .fragmented-div-active , .pen-div-active , .github-div-active{
+.copy-div-active , .mail-div-active , .fragmented-div-active , .pen-div-active , .github-div-active , .fragmented-div-active{
     background-color: #313131;
     height: 7vh;
     width: 100%;

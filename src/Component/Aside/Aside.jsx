@@ -15,12 +15,12 @@ export default function Aside() {
     <aside>
         <div className='top-aside-Div'>
             
-            <div className={activeComponent === 'home' ?'copy-div-active':'copy-div'} onClick={handleClickbtn} data-value='home'>
+            <div className={activeComponent === 'home' ? 'copy-div-active' :'copy-div'} onClick={handleClickbtn} data-value='home'>
                 <Image src={'/copy.svg'}/>
             </div>
 
 
-            <div className={activeComponent === 'about' ? 'fragmented-div-active' : 'fragmented-div'} onClick={handleClickbtn} data-value='articles'>
+            <div className={activeComponent === 'about' ? 'fragmented-div-active' : 'fragmented-div'} onClick={handleClickbtn} data-value='about'>
                 <Image src={'/element.svg'}/>
             </div>
             

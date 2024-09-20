@@ -1,0 +1,43 @@
+.github-main-div{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.left-framgent-of-btn{
+    font-size: 2rem;
+    color: rgb(19, 69, 139);
+}
+
+.right-framgent-of-btn{
+    font-size: 2rem;
+    color: rgb(19, 69, 139);
+}
+
+.download-resume{
+    font-size: 2rem;
+}
+
+
+
+@media (max-width:768px){
+    .download-btn-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 20vh;
+        width: 80vw;
+        position: relative;
+    }
+
+    .left-framgent-of-btn{
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+}
