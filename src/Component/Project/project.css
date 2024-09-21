@@ -19,7 +19,7 @@
     height: auto;
     max-height: 85vh;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+    grid-template-columns: repeat(2, minmax(450px, 1fr));
     gap: 20px; 
     justify-items: center; 
     overflow: auto;
@@ -103,7 +103,6 @@
 }
 
 
-
 @media (max-width: 768px) {
     .project-Details-div {
         grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -121,4 +120,10 @@
     .project-details-span-div ul{
         margin-left: 0;
     }
+}
+
+.project-details-inner-bottom-div h2{
+    color: white;
+    width: max-content;
+    border-bottom: 1px solid rgb(209, 87, 207);
 }

@@ -17,7 +17,7 @@ let projectList = [
     liveUrl:'https://abodehome.netlify.app/',
     githubUrl:'',
     imageSrc:'/air.png',
-    technologiesUsed:['Html5','Css3','Javascript','React', 'MirageJs' ,'Infinite Scroll' , 'Ajax' , 'Json'],
+    technologiesUsed:['React', 'Html5','Css3','Javascript', 'MirageJs' ,'Infinite Scroll' , 'Ajax' , 'Json'],
   },
     {
     projectTitle:'Quiz Maker',
