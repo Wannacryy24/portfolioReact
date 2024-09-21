@@ -13,22 +13,22 @@ export default function Contact() {
         <p>
           <span>2</span>
           <span className='website-span'>website:</span>
-          <a href="https://mayankvermaportfolio.netlify.app/">Portfolio.me</a>
+          <a href="https://mayankvermaportfolio.netlify.app/" target='_blank'>Portfolio.me</a>
         </p>
         <p>
           <span>3</span>
           <span className='website-span'>email:</span>
-          <a href="mailto:mayankverma.dev@gmail.com">mayankverma.dev@gmail.com</a>
+          <a href="mailto:mayankverma.dev@gmail.com" target='_blank'>mayankverma.dev@gmail.com</a>
         </p>  
         <p>
           <span>4</span>
           <span className='website-span'>github:</span>
-          <a href="https://github.com/">mygithub profile</a>
+          <a href="https://github.com/" target='_blank'>mygithub profile</a>
         </p>
         <p>
           <span>5</span>
           <span className='website-span'>linkedin:</span>
-          <a href="https://www.linkedin.com/in/mayank-verma-3b8b62318/">Mayank Linkedin</a>
+          <a href="https://www.linkedin.com/in/mayank-verma-3b8b62318/" target='_blank'>Mayank Linkedin</a>
         </p>
         <p>
           <span>6</span>
