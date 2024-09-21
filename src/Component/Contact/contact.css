@@ -21,7 +21,7 @@
 
 .contact-object-div {
     font-family: "JetBrains Mono", monospace;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
   }
   
   .contact-object-div h3 {
@@ -33,7 +33,7 @@
   }
   
   .contact-object-div a {
-    color: #F9826C;
+    color: #f9816cb1;
     text-decoration: none;
   }
   
@@ -62,6 +62,13 @@
     margin-right: 20px;
   }
   
+  .contact-object-div p{
+    font-size: 2rem;
+  }
+
+  .website-span{
+    margin-left: 3rem;
+  }
 
   @media (max-width:768px){
     .contact-div{

@@ -1,5 +1,5 @@
 import { useScroll } from "framer-motion";
-import React, { useContext, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import Home from "./Component/Home/Home";
 import About from "./Component/About/About";
 import Contact from "./Component/Contact/Contact";
@@ -14,12 +14,17 @@ import PageNotFound from "./Component/PageNotFound/PageNotFound";
 
 export default function TabNav() {
   const { clicked, setClicked, activeComponent, setActiveComponent } = useContext(ButtonContext);
-  
-  const navigate = useNavigate();
+
+  useEffect(()=>{
+    var x = localStorage.getItem('tab-clicked');
+    console.log('x',x);
+    setActiveComponent(x);
+  },[]);
 
   const handleButtonClick = (componentName) => {
     setActiveComponent(componentName);
     setClicked(!clicked);
+    localStorage.setItem('tab-clicked',componentName);
     // navigate(`/${componentName}`);
     //isse nahi ho payega q ki humko nested component ko render karana hai link tag use karke
   };

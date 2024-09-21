@@ -12,27 +12,28 @@ export default function Contact() {
         </p>
         <p>
           <span>2</span>
-          website:
+          <span className='website-span'>website:</span>
           <a href="https://mayankvermaportfolio.netlify.app/">Portfolio.me</a>
         </p>
         <p>
           <span>3</span>
-          email:
+          <span className='website-span'>email:</span>
           <a href="mailto:mayankverma.dev@gmail.com">mayankverma.dev@gmail.com</a>
         </p>  
         <p>
           <span>4</span>
-          github:
+          <span className='website-span'>github:</span>
           <a href="https://github.com/">mygithub profile</a>
         </p>
         <p>
           <span>5</span>
-          linkedin:
+          <span className='website-span'>linkedin:</span>
           <a href="https://www.linkedin.com/in/mayank-verma-3b8b62318/">Mayank Linkedin</a>
         </p>
         <p>
           <span>6</span>
-          Contact_no:  8868879095
+          <span className='website-span'>Contact_no:</span>  
+          <a href="">8868879095</a>
         </p>
         <p>
           
