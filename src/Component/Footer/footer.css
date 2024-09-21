@@ -32,3 +32,9 @@ footer div img{
     align-items: center;
     gap: .2rem;
 }
+
+@media(max-width:768px){
+    .powered-by-react{
+        display: none;
+    }
+}

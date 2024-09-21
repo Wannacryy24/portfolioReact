@@ -87,4 +87,10 @@
     .contact-object-div p a{
       color: #42A5F5;
     }
+    .contact-object-div{
+      overflow: auto;
+    }
+    .contact-object-div h3{
+      font-size: 2.5rem;
+    }
   }

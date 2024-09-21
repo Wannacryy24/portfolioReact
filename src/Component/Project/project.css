@@ -42,14 +42,16 @@
 .first-project{
     border-radius: 15px;
     background-color: #1F2428;
-    /* min-width: 40vw; */
+    max-width: 30vw;
     /* width: 60%; */
     width: auto;
     height: 70vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     gap: 3%;
     margin: 0 auto;
+    padding-bottom: 5px;
 }
 
 .project-details-inner-bottom-div{
@@ -110,6 +112,13 @@
         padding: 1rem;
     }
     .first-project{
-        width: 100%;
+        max-width: 100%;
+        align-items: center;
+    }
+    .project-div{
+        width: 98%;
+    }
+    .project-details-span-div ul{
+        margin-left: 0;
     }
 }

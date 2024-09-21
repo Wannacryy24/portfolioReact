@@ -21,7 +21,7 @@ export default function Footer() {
         <div className='footer-left-div'>
             <div>
                 <Image src={'/react-svgrepo-com.svg'}></Image>
-                <p>Powered By React</p>
+                <p className='powered-by-react'>Powered By React</p>
             </div>
             <div>
                 <Image src={'/double-tic.svg'}></Image>

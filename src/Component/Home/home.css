@@ -102,6 +102,112 @@
   font-size: 10rem;
 }
 
+ /* From Uiverse.io by andrew-demchenk0 */ 
+ .button-download {
+  --main-focus: #2d8cf0;
+  --font-color: #dedede;
+  --bg-color-sub: #24292E;
+  --bg-color: #24292E;
+  --main-color: #dedede;
+  position: relative;
+  width: 150px;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border: 2px solid var(--main-color);
+  box-shadow: 4px 4px var(--main-color);
+  background-color: var(--bg-color);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.button-download, .button__icon, .button__text {
+  transition: all 0.3s;
+}
+
+.button-download .button__text {
+  transform: translateX(21px);
+  color: var(--font-color);
+  font-weight: 600;
+}
+
+.button-download .button__icon {
+  position: absolute;
+  transform: translateX(109px);
+  height: 100%;
+  width: 39px;
+  background-color: var(--bg-color-sub);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-download .svg {
+  width: 20px;
+  fill: var(--main-color);
+}
+
+.button-download:hover {
+  background: var(--bg-color);
+}
+
+.button-download:hover .button__text {
+  color: transparent;
+}
+
+.button-download:hover .button__icon {
+  width: 148px;
+  transform: translateX(0);
+}
+
+.button-download:active {
+  transform: translate(3px, 3px);
+  box-shadow: 0px 0px var(--main-color);
+}
+
+
+@keyframes move {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.moving-image {
+  animation: move 3s ease-in-out infinite;
+}
+
+
+
+.frontend-web-developer{
+  width: 100%;
+}
+
+.home-btn-left-div{
+  width: 80%;
+}
+
+.home-btn-div , .download-resume-div{
+  width: 70%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media (max-width:768px)
@@ -111,22 +217,26 @@
     }
     .home-div{
         padding: 1rem;
+        width: 100%;
     }
     .background-circle-image{
         z-index: 1;
         opacity: 0.5;
     }
-    .home-div div{
-        z-index: 3;
-    }
-    .home-div{
-        width: 100%;
-    }
     .home-btn-div{
         width: 80vw;
-    }
-    .home-btn-div{
         padding-top: 10px;
+        z-index: 3;
+    }
+    .home-btn-left-div{
+      padding-top: 10px;
+      width: 100%;
+    }
+    .home-btn-left-div{
+      display: flex;
+    }
+    .download-resume-div{
+      
     }
   }
 
@@ -139,97 +249,4 @@
 
 
 
-  /* From Uiverse.io by andrew-demchenk0 */ 
-.button-download {
-    --main-focus: #2d8cf0;
-    --font-color: #dedede;
-    --bg-color-sub: #24292E;
-    --bg-color: #24292E;
-    --main-color: #dedede;
-    position: relative;
-    width: 150px;
-    height: 40px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    border: 2px solid var(--main-color);
-    box-shadow: 4px 4px var(--main-color);
-    background-color: var(--bg-color);
-    border-radius: 10px;
-    overflow: hidden;
-  }
-  
-  .button-download, .button__icon, .button__text {
-    transition: all 0.3s;
-  }
-  
-  .button-download .button__text {
-    transform: translateX(21px);
-    color: var(--font-color);
-    font-weight: 600;
-  }
-  
-  .button-download .button__icon {
-    position: absolute;
-    transform: translateX(109px);
-    height: 100%;
-    width: 39px;
-    background-color: var(--bg-color-sub);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .button-download .svg {
-    width: 20px;
-    fill: var(--main-color);
-  }
-  
-  .button-download:hover {
-    background: var(--bg-color);
-  }
-  
-  .button-download:hover .button__text {
-    color: transparent;
-  }
-  
-  .button-download:hover .button__icon {
-    width: 148px;
-    transform: translateX(0);
-  }
-  
-  .button-download:active {
-    transform: translate(3px, 3px);
-    box-shadow: 0px 0px var(--main-color);
-  }
-
-
-  @keyframes move {
-    0% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(-10px);
-    }
-    100% {
-      transform: translateY(0);
-    }
-  }
-  
-  .moving-image {
-    animation: move 3s ease-in-out infinite;
-  }
-  
-
-
-  .frontend-web-developer{
-    width: 100%;
-  }
-
-  .home-btn-left-div{
-    width: 80%;
-  }
-
-  .home-btn-div , .download-resume-div{
-    width: 70%;
-  }
+ 
