@@ -42,7 +42,9 @@
 .first-project{
     border-radius: 15px;
     background-color: #1F2428;
-    width: 80%;
+    /* min-width: 40vw; */
+    /* width: 60%; */
+    width: auto;
     height: 70vh;
     display: flex;
     flex-direction: column;
