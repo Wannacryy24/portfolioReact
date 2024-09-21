@@ -52,7 +52,7 @@ export default function Home() {
                 Contact Me
               </button>
             </div>
-            <div>
+            <div className='download-resume-div'>
                 <a href="/Mayank_resume.pdf" target='_blank' rel="noopener noreferrer">
               <button type="button" className="button-download">
                 <span className="button__text">Resume</span>
