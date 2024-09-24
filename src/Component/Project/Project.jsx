@@ -36,7 +36,7 @@ let projectList = [
       technologiesUsed:['Html5','Css3','Javascript','Vite','Json'],
     },
     {
-      projectTitle:'Javascript Portfolio',
+      projectTitle:'JS Portfolio',
       projectDetails:'JavaScript portfolio with responsiveness and full details using html , css , javascript',
       liveUrl:'https://mayankvermaportfolio.netlify.app/',
       githubUrl:'',

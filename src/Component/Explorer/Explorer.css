@@ -1,6 +1,6 @@
 .explorer-Div{
     background-color: #1F2428;
-    min-width: 10vw;
+    /* min-width: 10vw; */
     width: 18vw;
     padding: .5rem;
     border-right:1px solid #161A1D;
@@ -23,7 +23,9 @@
     display: flex;
     align-items: center;
 }
-
+.explorer-portfolio-div:hover{
+    cursor: pointer;
+}
 .portfolio{
     font-weight: 700;
     font-size: 13px;
@@ -39,8 +41,29 @@
     width: 1rem;
 }
 
+
+.explorer-home-div{
+    width: 100%;
+    height: 100%;
+    transition: background-color 0.3s; 
+}
+.explorer-home-div:hover{
+    cursor: pointer;
+    background-color: #3C3C3C;
+}
+
+.explorer-home-div-Active{
+    color: white;
+    background-color: rgba(0, 98, 255, 0.228);
+    border: 1px solid rgb(0, 98, 255);
+}
+.explorer-home-div-Active p{
+    color: white;
+}
+
 @media (max-width:768px){
     .explorer-Div{
-        display: none;
+        width: 40vw;
+        /* display: none; */
     }
 }

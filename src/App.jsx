@@ -6,6 +6,7 @@ import LayoutMainDiv from "./LayoutMainDiv"
 import ReactGA from 'react-ga4';
 import { useEffect } from "react"
 
+
 function usePageTracking(){
   const location = useLocation();
   useEffect(()=> {

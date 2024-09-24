@@ -54,6 +54,7 @@ aside{
 
 @media (max-width:768px){
  aside{
-    width: 12vw;
+    display: none;
+    /* width: 12vw; */
  }
 }

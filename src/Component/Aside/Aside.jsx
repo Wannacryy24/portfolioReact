@@ -5,12 +5,15 @@ import { ButtonContext } from '../../ButtonContext'
 import { useNavigate } from 'react-router-dom'
 export default function Aside() {
     const navigate = useNavigate();
+    
     const { activeComponent , setActiveComponent } = useContext(ButtonContext);
+    
     const handleClickbtn = (e) => {
         var selectedComponent = e.currentTarget.getAttribute('data-value');
         setActiveComponent(selectedComponent);
-        navigate(e.currentTarget.value);
+        navigate(selectedComponent);
     }
+    
   return (
     <aside>
         <div className='top-aside-Div'>

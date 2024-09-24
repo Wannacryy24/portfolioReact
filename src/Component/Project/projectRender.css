@@ -136,3 +136,8 @@
     padding: .25rem 0.5rem .25rem 0.5rem;
     border-radius: .5rem; 
 }
+@media(max-width:768px){
+    .project-details-inner-bottom-div h2{
+        font-size: 2rem;
+    }
+}

@@ -16,4 +16,7 @@
   .home-div{
     width: 100%;
   }
+  .layout-Main-Div{
+    overflow: auto;
+  }
 }
