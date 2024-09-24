@@ -3,6 +3,9 @@ import LiComponent from '../MiniComponent/LiComponent'
 import Image from '../MiniComponent/Image'
 import './Header.css'
 export default function Header() {
+  const handleCloseWindow = () => {
+    window.close();
+};
   return (
     <header>
         <div className='left-Header-Div'>
@@ -15,7 +18,11 @@ export default function Header() {
         <div className='right-Header-Div'>
             <div  className='yellow'></div>
             <div className='green'></div>
-            <div className='red'></div>
+            <div 
+                    className='red' 
+                    onClick={handleCloseWindow} 
+                    style={{ cursor: 'pointer' }}
+                ></div>
         </div>     
     </header>
   )
