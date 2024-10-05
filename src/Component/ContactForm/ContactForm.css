@@ -1,0 +1,119 @@
+.contact-form{
+    width: 50%;
+    height: 80%;
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    z-index: 33333333;
+    border-left: #F9826C solid 1px;
+    padding-left: 2rem;
+}
+.contact-form-outer-p{
+    font-size: 1.2rem;
+    padding-left: 3rem;
+    color: white;
+
+}
+.contact-form span{
+    padding-left: 3rem;
+    color: blue;
+    font-size: rem;
+}
+.span-result-hide{
+    display: none;
+}
+
+.contact-form form{
+    padding-left: 3rem;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+
+
+.name-div ,.messege-div , .email-div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.name-div p{
+    font-size: 1.2rem;
+    color: white;
+}
+
+.name-div input , .email-div input{
+    background-color: #1F2428;
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 1rem;
+    color: white;
+    width: 20vw;
+    height: 6vh;
+    background-color: #1F2428;
+}
+
+.email-div P{
+    font-size: 1.2rem;
+    color: white;
+}
+
+
+.messege-div p{
+    font-size: 1.2rem;
+    color: white;
+}
+
+.messege-div textarea{
+    background-color: #1F2428;
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 1rem;
+    color: white;
+    width: 20vw;
+    height: 15vh;
+}
+.submit-form{
+    width: 10vw;
+    height: 10vh;
+    background-color: #F9826C;
+    border: none;
+}
+
+input:focus, textarea:focus {
+    border-color: #4c75af; 
+    box-shadow: 0 0 5px rgba(49, 82, 159, 0.5); 
+  }
+
+
+  @media(max-width:768px) {
+
+    .name-div input , .email-div input , .messege-div textarea{
+        width: 70%;
+    }
+    .submit-form{
+        width: 50%;
+    }
+    .contact-form{
+        width: 100%;
+        /* padding-left:0; */
+        border: none;
+    }
+    .contact-form form{
+        padding-left: 0rem;
+    }
+
+    .submit-form{
+        height: 6vh;
+    }
+    .name-div input, .email-div input, .messege-div textarea{
+        width: 90%;
+    }
+  }

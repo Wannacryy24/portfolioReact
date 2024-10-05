@@ -13,8 +13,9 @@ export default function Github() {
       }
     }
   };
-
   return (
+    <>
+    
     <div className='github-main-div'>
       <motion.svg
         xmlns="http://www.w3.org/2000/svg"
@@ -24,7 +25,7 @@ export default function Github() {
         strokeWidth="2"
         width="200"
         height="100"
-      >
+        >
        {/* //m likhne ke liye */}
         <motion.path
           d="M 10 80 L 10 20 L 30 40 L 50 20 L 50 80"
@@ -32,7 +33,7 @@ export default function Github() {
           initial="hidden"
           animate="visible"
           
-        />
+          />
          <motion.path
           d="M 60 80 L 70 20 L 80 80 M 65 60 L 75 60"
           variants={svgVariants}
@@ -45,7 +46,7 @@ export default function Github() {
           variants={svgVariants}
           initial="hidden"
           animate="visible"
-        />
+          />
         
         <motion.path
           d="M 120 80 L 130 20 L 140 80 M 125 60 L 135 60"
@@ -66,7 +67,7 @@ export default function Github() {
           variants={svgVariants}
           initial="hidden"
           animate="visible"
-        />
+          />
       </motion.svg>
       <div className='download-btn-div'>
         <span className='left-framgent-of-btn'>
@@ -82,6 +83,7 @@ export default function Github() {
           </span>
       </div>
     </div>
+          </>
   );
 }
 
