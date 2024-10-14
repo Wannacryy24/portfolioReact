@@ -16,13 +16,14 @@ function usePageTracking(){
 
 
 function App() {
+
+
   useEffect(()=>{
     ReactGA.initialize('G-N0LRLPFK9Q');
   },[]);
 
-
   
-  //jab bhi koi location change hoga to ek pageview bheja jayega iske through 
+  //jab bhi koi location change hoga to ek pageview bheja jayega iske through.
   return (
 <ButtonContextProvider>
       <Router>
