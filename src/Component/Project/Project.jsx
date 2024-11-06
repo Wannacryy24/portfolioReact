@@ -11,7 +11,7 @@ let projectList = [
     imageSrc:'/notesSS.png',
     technologiesUsed:['Html5','Css3','Javascript','Quill Js','Canva Js','Local Storage','Vite'],
   },
-  {
+  { 
     projectTitle:'Spotify Cloner',
     projectDetails:'- Developed a dynamic, responsive Spotify Cloner with webPlayer, Dynamic Routing and searching.',
     liveUrl:'https://spotifydummy.netlify.app/',
