@@ -16,8 +16,6 @@ function usePageTracking(){
 
 
 function App() {
-
-
   useEffect(()=>{
     ReactGA.initialize('G-N0LRLPFK9Q');
   },[]);
