@@ -28,7 +28,7 @@ function App() {
         <PageTracker/>
         <Header/>
           <Routes>
-           <Route path="/" element={<Navigate to="/Home" replace />} />
+            <Route path="/" element={<Navigate to="/Home" replace />} />
             <Route path="/*" element={<LayoutMainDiv/>} />
         </Routes>
         <Footer />
