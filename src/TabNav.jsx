@@ -153,6 +153,10 @@ export default function TabNav() {
         }
 
         {/* ye shuru me use kiya tha fir nested Routing karni padi thi to Routes ka use kiya tha */}
+
+
+
+        
         {/* {activeComponent === "home" && <Home />} */}
         {/* {activeComponent === "about" && <About />} */}
         {/* {activeComponent === "contact" && <Contact />} */}
