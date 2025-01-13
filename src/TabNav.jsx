@@ -46,7 +46,7 @@ export default function TabNav() {
                 src={"/react.svg"}
                 className={"tabbed-home-img tabbed-img"}
                 />
-              <p className="tabbed-btn">home.jsx</p>
+              <p className="tabbed-btn">Home.jsx</p>
             </div>
           </Link>
 
@@ -64,7 +64,7 @@ export default function TabNav() {
                 src={"/html_icon.svg"}
                 className={"tabbed-about-img tabbed-img"}
                 />
-              <p className="tabbed-btn">about.html</p>
+              <p className="tabbed-btn">About.html</p>
             </div>
           </Link>
 
@@ -81,7 +81,7 @@ export default function TabNav() {
                 src={"/css_icon.svg"}
                 className={"tabbed-contact-img tabbed-img"}
                 />
-              <p className="tabbed-btn">contact.css</p>
+              <p className="tabbed-btn">Contact.css</p>
             </div>
           </Link>
 
@@ -100,7 +100,7 @@ export default function TabNav() {
                 src={"/js_icon.svg"}
                 className={"tabbed-project-img tabbed-img"}
                 />
-              <p className="tabbed-btn">projcet.js</p>
+              <p className="tabbed-btn">Projcet.js</p>
             </div>
           </Link>
 
@@ -118,7 +118,7 @@ export default function TabNav() {
                 src={"/json_icon.svg"}
                 className={"tabbed-articles-img tabbed-img"}
                 />
-              <p className="tabbed-btn">skills.json</p>
+              <p className="tabbed-btn">Skills.json</p>
             </div>
           </Link>
 
@@ -136,7 +136,7 @@ export default function TabNav() {
                 src={"/markdown_icon.svg"}
                 className={"tabbed-github-img tabbed-img"}
                 />
-              <p className="tabbed-btn">github.md</p>
+              <p className="tabbed-btn">Github.md</p>
             </div>
           </Link>
         </div>
