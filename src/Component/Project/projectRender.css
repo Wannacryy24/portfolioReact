@@ -1,143 +1,18 @@
-.Html5-li,.Vite-li{
-    padding: .2rem;
-    align-items: center;
-    border: 2px solid red;
-    border-radius: 5px;
-    width: auto;
-    justify-content: center;
-    display: flex;
-    padding: 1px;
-    background-color: rgb(25 39 66);
-    padding: .25rem 0.5rem .25rem 0.5rem;
-    border-radius: .5rem;
-}
-.Html5-li:hover , .Vite-li:hover{
-    background-color: #572B33;
-    cursor: pointer;
+.tech-pill {
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "JetBrains Mono", monospace;
+  color: white;
+  transition: background-color 0.2s ease;
+  cursor: pointer;
 }
 
-
-.Css3-li,.Canva.js-li{
-    border: 2px solid #285f9e;
-    border-radius: 5px;
-    width: auto;
-    justify-content: center;
-    display: flex;
-    padding: 1px;
-    background-color: rgb(25 39 66);
-    padding: .25rem 0.5rem .25rem 0.5rem;
-    border-radius: .5rem;
-}
-.Canva.js-li:hover , .Css3-li:hover{
-    background-color: #17375B;
-    cursor: pointer;
-}
-.Javascript-li,.Json-li{
-    border: 2px solid #83CD29;
-    border-radius: 8px;
-    width: auto;
-    justify-content: center;
-    display: flex;
-    padding: 1px;
-    background-color: rgb(25 39 66);
-    padding: .25rem 0.5rem .25rem 0.5rem;
-    border-radius: .5rem;
-}
-.Javascript-li:hover ,.Json-li:hover{
-    background-color: #384E28;
-    cursor: pointer;
-}
-.React-li{
-    border: 2px solid #764ABC;
-    border-radius: 5px;
-    width: auto;
-    justify-content: center;
-    display: flex;
-    padding: 1px;
-    background-color: rgb(25 39 66);
-    padding: .25rem 0.5rem .25rem 0.5rem;
-    border-radius: .5rem;    
-}
-.React-li:hover{
-    background-color:#352E4D ;
-    cursor: pointer;
-}
-.MirageJs-li{
-    border: 2px solid #61DAFB;
-    border-radius: 5px;
-    width: auto;
-    justify-content: center;
-    display: flex;
-    padding: 1px;  
-    background-color: rgb(25 39 66);
-    padding: .25rem 0.5rem .25rem 0.5rem;
-    border-radius: .5rem; 
-}
-.MirageJs-li:hover{
-    background-color: #1F2428;
-    cursor: pointer;
+.project-source-code-div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem; /* ✅ Add this line */
 }
   
-.Canva.js-li{
-    background-color: #384E28;
-}
-
-.Js-li{
-    border: 2px solid orange;
-    border-radius: 5px;
-    width: auto;
-    justify-content: center;
-    display: flex;
-    padding: 1px;  
-    background-color:rgba(79, 69, 51, 0.434);
-    padding: .25rem 0.5rem .25rem 0.5rem;
-    border-radius: .5rem; 
-}
-
-.Js-li:hover{
-    background-color: rgb(232, 205, 156);
-    color: black;
-}
-
-.Storage-li{
-    border: 2px solid indianred;
-    border-radius: 5px;
-    width: auto;
-    justify-content: center;
-    display: flex;
-    padding: 1px;  
-    background-color:rgba(79, 69, 51, 0.434);
-    padding: .25rem 0.5rem .25rem 0.5rem;
-    border-radius: .5rem; 
-}
-.Storage-li:hover{
-
-}
-
-.Scroll-li{
-    border: 2px solid indigo;
-    border-radius: 5px;
-    width: auto;
-    justify-content: center;
-    display: flex;
-    padding: 1px;  
-    background-color:rgba(79, 69, 51, 0.434);
-    padding: .25rem 0.5rem .25rem 0.5rem;
-    border-radius: .5rem; 
-}
-.Ajax-li{
-    border: 2px solid indianred;
-    border-radius: 5px;
-    width: auto;
-    justify-content: center;
-    display: flex;
-    padding: 1px;  
-    background-color:rgba(79, 69, 51, 0.434);
-    padding: .25rem 0.5rem .25rem 0.5rem;
-    border-radius: .5rem; 
-}
-@media(max-width:768px){
-    .project-details-inner-bottom-div h2{
-        font-size: 2rem;
-    }
-}

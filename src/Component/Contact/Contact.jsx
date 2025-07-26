@@ -20,7 +20,7 @@ export default function Contact() {
           <p>
             <span>3</span>
             <span className='website-span'>email:</span>
-            <a href="mailto:mayankverma.dev@gmail.com" target='_blank'>mayankverma.dev@gmail.com</a>
+            <a href="mailto:mayankverma24.dev@gmail.com" target='_blank'>mayankverma.dev24@gmail.com</a>
           </p>  
           <p>
             <span>4</span>
