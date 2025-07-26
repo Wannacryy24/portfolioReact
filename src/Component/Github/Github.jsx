@@ -72,7 +72,7 @@ export default function Github() {
           <span className='left-framgent-of-btn'>
           &lt;button&gt;
           </span>
-            <a href="/Mayank_Verma_Frontend_Fresher.pdf" target='_blank'>
+            <a href="/Mayank_Verma_Frontend_Resume.pdf" target='_blank'>
               <span className='download-resume'>
               Download Resume
               </span>
