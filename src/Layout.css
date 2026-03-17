@@ -1,4 +1,48 @@
-.layout-Main-Div{
-    height: 93vh;
-    display: flex;
+.layout-Main-Div {
+  height: 93vh;
+  display: flex;
+}
+
+/* Wrapper */
+.explorer-wrapper {
+  overflow: hidden;
+  width: 0;
+  opacity: 0;
+
+  transition: width 0.3s ease, opacity 0.2s ease;
+  flex-shrink: 0; /* 🔥 IMPORTANT */
+}
+
+/* OPEN */
+.explorer-wrapper.open {
+  width: 18vw;
+  opacity: 1;
+}
+
+/* CLOSED */
+.explorer-wrapper.close {
+  width: 0;
+  opacity: 0;
+}
+
+.explorer-Div {
+  width: 18vw;   /* ✅ KEEP THIS (IMPORTANT) */
+  background-color: #1F2428;
+  padding: 0.5rem;
+  border-right: 1px solid #161A1D;
+}
+
+.explorer-wrapper {
+  border: 1px solid red;
+}
+
+.explorer-wrapper {
+  overflow: hidden;
+  width: 0;
+  opacity: 0;
+  flex-shrink: 0;
+
+  transition: width 0.3s ease, opacity 0.2s ease;
+
+  border: 1px solid red; /* keep for debug */
 }
