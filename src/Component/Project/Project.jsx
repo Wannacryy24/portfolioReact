@@ -7,7 +7,7 @@ let projectList = [
     projectTitle: 'CodeCollab',
     projectDetails:
       'Real-time collaborative code editor using Monaco Editor, Socket.IO, and Supabase. Enables multiple users to code together with live cursor sharing, dynamic language support, fullscreen toggle, and session-based collaboration. Integrated Mixpanel to track room joins, code edits, theme changes, and user engagement for better product insights.',
-    liveUrl: 'https://code-editor-five-alpha.vercel.app/',
+    liveUrl: 'https://code-together-web.vercel.app/',
     githubUrl: 'https://github.com/Wannacryy24/CodeCollab',
     imageSrc: '/codeTogether.jpeg',
     technologiesUsed: ['React', 'Monaco Editor', 'Socket.IO', 'Node.js', 'Express', 'Supabase Auth', 'Framer Motion', 'Vite', 'Css3', 'JavaScript', 'Mixpanel (Analytics)',],
